@@ -1,0 +1,33 @@
+.option-sec {
+    background: rgba(162, 219, 255, 0.3);
+    padding: 1rem;
+    padding-top: 0.5rem;
+    overflow: auto;
+    margin-bottom: 0.5rem;
+    border-radius: 8px;
+    /* width: 58%; */
+}
+
+.option-header {
+    color: #1976d2;
+}
+
+.option-inputs {
+    display: flex;
+    column-gap: 2rem;
+    margin-top: 1rem;
+    position: relative;
+}
+
+.remove-btn {
+    position: relative;
+    /* margin-left: auto; */
+}
+
+@media screen and (max-width: 900px) {
+    .option-inputs {
+        flex-direction: column;
+        row-gap: 0.8rem;
+        /* background: blue; */
+    }
+}
