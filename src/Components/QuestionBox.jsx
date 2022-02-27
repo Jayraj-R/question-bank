@@ -102,7 +102,7 @@ const QuestionBox = ({ questionList, setQuestionList }) => {
 					</FormControl>
 				</div>
 
-				{answerType != '' && (
+				{answerType !== '' && (
 					<div
 						className='form-item'
 						style={{ height: '48vh', overflow: 'auto' }}

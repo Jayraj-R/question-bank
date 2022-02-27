@@ -14,7 +14,7 @@ const Options = ({ index, option, options, setOptions, answerType }) => {
 	};
 	useEffect(() => {
 		setCurrOption(options[index]);
-	}, [options]);
+	}, [options, index]);
 
 	const handleChange = (e, field) => {
 		var newOpt = {
